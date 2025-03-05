@@ -1,0 +1,47 @@
+Blackjack (21) game
+
+Configurations:
+    Player bank
+    max bet
+    number of card decks
+
+Dealer & Player:
+    Both are given 2 cards, first player then dealer to start from one card pack (can be configured to be played with more packs?)
+    {Create random array form the cards, cards are given from this array in order and delete them from it}
+    {After the game re-create this array}
+    IF eather has 1 Ace and hand goes over 17, change Ace value from 11 to 1
+    IF eather has 2 or more Aces in hand, change their value from 11 to 1
+
+Player:
+    Is given 2 cards
+        If blackjack (cards value 21) automatically stand
+        Has three options stand (S), douple (D), rise (R)
+            IF stand (S) --> dealers turn
+            IF douple (D) --> PLayer's bet is doupled, dealer gives one card and automatically stand
+            IF rise (R) --> Dealer gives new card to player's hand
+                Player can rise again until bust (cards value over 21) or decide to stand
+                    IF player busts game ends
+        After the player has ended his turn becomes dealers turn
+
+Dealer:
+    gives player 2 cards to start
+    gives himself 2 cards
+    first card is show to the player
+    waits for the player to finish his turn
+    after the player show to second card
+        IF cards' value > 17 but < 21 stand automatically
+        IF cards' value > 21 bust
+        IF cards' value < 17 rise until over 17 (if over 21 bust)
+    
+End:
+    Compare dealers and players hand which one won
+    IF equal return bet
+    IF player wins 2x bet
+    IF delaer wins take bet ammount from players bank
+
+Cards:
+
+    numer cards 2 - 10 --> value as in card
+    qeen (Q), king (K), Jack (J) --> value 10 
+    ace (A) --> 11 or 1 
+        
