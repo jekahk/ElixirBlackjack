@@ -59,14 +59,13 @@
 </details>
  -->
 
-<!-- ABOUT THE PROJECT 
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="center">
+  <img src="screenshots/screenshot-combined.png" alt="Elixir Blackjack Screenshot" height="450">
+</div>
+This project was..
 
 
 
@@ -77,7 +76,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--->
+
 
 <!-- GETTING STARTED
 ## Getting Started
@@ -204,3 +203,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 [Elixir]: https://img.shields.io/badge/Elixir-20232A?style=for-the-badge&logo=elixir&logoColor=48205D
 [Elixir-url]: https://elixir-lang.org/
+[product-screenshot]: screenshots/screenshot-combined.png
