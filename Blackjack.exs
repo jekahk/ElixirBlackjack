@@ -1,5 +1,4 @@
 
-
 defmodule Deck do
   def createDeck do
   suit = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
@@ -101,6 +100,8 @@ defmodule Deal do
 end
 
 defmodule CardValue do
+
+  #Calculates and returns the number value of dealt hand
   def calculateValue(list) do
     handValue = calculateValue(list, 0)
 
@@ -126,7 +127,7 @@ defmodule Game do
 
     IO.puts("\n\n\n\nWelcome to Blackjack!\n\n")
 
-    Code.require_file("SaveSystem.exs")
+    Code.require_file("SaveSystem.exs") #import Module SaveSystem with functions saves, newSave, listSaves, selectSave, deleteSave
     selectedSave = SaveSystem.saves()
 
     {currentBalance, bet} = Game.bet(selectedSave)
@@ -140,7 +141,7 @@ defmodule Game do
 
   def bet(selectedSave) do
 
-    Code.require_file("BetSystem.exs") #import Module BetSystm with loadBalance, manageBalance, placeBet
+    Code.require_file("BetSystem.exs") #import Module BetSystm with functions loadBalance, manageBalance, placeBet
     initalBalance = BetSystem.loadBalance(selectedSave)
     IO.puts("Your balance: " <> Integer.to_string(initalBalance))
     bet = BetSystem.placeBet(initalBalance)

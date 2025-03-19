@@ -22,6 +22,7 @@ defmodule SaveSystem do
     end
   end
 
+  #Creates .save-file to saves folder on the project's root
   def newSave() do
 
     unless File.dir?("saves") do
