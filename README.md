@@ -23,9 +23,9 @@
 <h3 align="center">Elixir Blackjack</h3>
 
   <p align="center">
-    Terminal Blackjack (Twenty-one) card game written with Elixir programming language.
+    A terminal based Blackjack (Twenty-one) card game written with Elixir programming language.
     <br />
-    This project is done for University course Programming Paragrams in Practice.
+    This project is done for University's course Programming Paragrams in Practice.
     <br />
   </p>
 </div>
@@ -65,8 +65,10 @@
 <div align="center">
   <img src="screenshots/screenshot-combined.png" alt="Elixir Blackjack Screenshot" height="450">
 </div>
-This project was..
 
+The task for this project was to select a programming language that was new for the student and then use it to build some sort of game. The game idea could be selected from a predetermined list, or the student could come up with an own idea. The purpose was to get to know a new programming language and concentrate on how this language supported this programming project. This project idea was selected from the predetermined list. The project could be done as solo or in a group up to 4 persons. This project was done solo. 
+
+This project started with some initial brainstorming about what the finished game should include. The initial plan can be viewed in the "initial ideas.txt" document. The product of this project is a terminal based Blackjack, other name Twenty-one, card game written whit Elixir programming language. The game has a save system that keeps track of the players balance, betting system and simple interface that displace the dealers hand and the players’ hand.
 
 
 ### Built With
@@ -78,7 +80,7 @@ This project was..
 
 
 
-<!-- GETTING STARTED
+<!-- GETTING STARTED 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -126,21 +128,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
--->
+<!-- ROADMAP  -->
+## Improvement ideas
 
-<!-- ROADMAP
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- [ ] Configuration support
+    - [ ] Inital bet ammount
+    - [ ] Max bet limit
+    - [ ] Deck customization
+- [ ] Better graphical interface
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- -->
 
 
 <!-- CONTRIBUTING
